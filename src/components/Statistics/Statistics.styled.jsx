@@ -54,7 +54,7 @@ export const StatListItem = styled.li`
     border-bottom-right-radius: 0.5rem;
   }
 
-  background-color: ${idx => getRandomHexColor()};
+  background-color: ${() => getRandomHexColor()};
 `;
 
 export const Label = styled.span`
